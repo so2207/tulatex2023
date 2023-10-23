@@ -1,1 +1,15 @@
 
+data = ['книга', 'месяц', 'ручка', 'шарик', 'олень', 'носок']
+
+word = random.choice(data)
+char = '\u25A0'
+heard = '\u2764'
+pole = []
+
+for ch in word:
+    pole.append(char)
+
+life = 5
+print(*pole, end = ' | ')
+print(f'{heard}x{life}')
+
