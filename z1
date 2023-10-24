@@ -11,5 +11,5 @@ for ch in word:
 
 life = 5
 print(*pole, end = ' | ')
-print(f'{heard}x{life}')
+print(f'{heard} x {life}')
 
